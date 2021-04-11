@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quiz</title>
+    
+    <!-- style.css -->
+    <link rel="stylesheet" href="dist/css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="welcome_text">
+        <div class="startText" >
+            <h1>Avaliação de 5 pontos  </h1>
+
+            <h3>Seu primeiro passo para descobrir: </h3>
+            <ul>
+                <li><b>Quem</b> você é</li>
+                <li><b>O que</b> você quer</li>
+                <li>E <b>Como</b> conseguir</li>
+            </ul>
+                <div class="Disclaimer">
+                    <h3>O objetivo dessa pesquisa é entender você baseado nos seus 5 Pontos </h3>
+                    <h4>Quanto mais honesto você for, mais preciso será seu resultado</h4>
+
+                </div>
+           </div>
+
+
+            
+            <form class="welcome_form" name="welcome_form" onsubmit="submitForm(event)">
+                <h2 class="startText">Nome</h2>
+                <input required type="text" name="name">
+                <h2 class="startText">Sobrenome</h2>
+                <input type="text" name="lastName">
+                <h2 class="startText">Email</h2>
+                <input required type="email" name="email">
+
+                <button>Start Quiz</button>
+            </form>
+            <footer style="color: white"><p>Não armazenamos nem compartilhamos suas informações ou resultados sem sua autorização </p>
+                <p></p></footer>
+        </div>
+    </div>
+        
+    <!-- site.js -->
+    <script src="dist/js/start.js"></script>
+</body>
+</html>
